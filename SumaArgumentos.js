@@ -13,9 +13,9 @@ if (args.length == 2)
 
 //	Suma de todos los argumentos
 args.forEach(function (element, index, array) {
-	if (index > 1)
-			resultado += Number(element)
 	//si a NaN le sumas algo sigue siendo NaN
+	if (index > 1)
+		resultado += Number(element)
 })
 
 // NaN === NaN -> false -- si el resultado es NaN 
